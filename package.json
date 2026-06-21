@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "vite build --host 0.0.0.0",
     "preview": "vite preview"
   },
   "dependencies": {
